@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12dc8364-0612-44bc-b35a-e75b49a13962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sum of two numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sum of two numbers and reversing it.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.sum of two numbers and reversing it.executor": "Run",
     "Python.sum of two numbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
