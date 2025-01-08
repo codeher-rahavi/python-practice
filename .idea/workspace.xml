@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12dc8364-0612-44bc-b35a-e75b49a13962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/swapcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     "Python.insert append and remove.executor": "Run",
     "Python.main.executor": "Run",
     "Python.second smallest grade and names.executor": "Run",
+    "Python.strings.executor": "Run",
     "Python.sum of two numbers and reversing it.executor": "Run",
     "Python.sum of two numbers.executor": "Run",
     "Python.swapcase.executor": "Run",
