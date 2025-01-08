@@ -1,14 +1,33 @@
-a=int(input("enter array size:"))
-b=[]
+a=int(input("enter the array size:"))
+array=[]
+instruction=[]
 for i in range(a):
-    c=int(input())
-    b.append(c)
-d=int(input("enter a target number:"))
-found=False
-for i in range(0,a):
-    for j in range(i+1,a):
-        if b[i]+b[j]==d:
-            print("[", i, "," ,j,"]")
-            found=True
-if not found:
-    print("No pairs found that sum to the target.")
+    b=input("enter a command and two numbers:").split()
+    command=b[0]
+
+    if len(b)==3:
+        num1,num2=int(b[1]),int(b[2])
+        array.append([command,num1,num2])
+
+    elif len(b)==2:
+        num1=int(b[1])
+        array.append([command,num1])
+
+    else:
+        array.append([command])
+
+    instruction.append(command)
+
+answer=[]
+for i in array:
+    if i[0] =="insert":
+        answer.insert(i[1],i[2])
+    if i[0]=="append":
+        answer.append(i[1])
+    if i[0]=="remove":
+        answer.remove(i[1])
+    if i[0]=="pop":
+        answer.pop(i[1])
+
+print(answer)
+
