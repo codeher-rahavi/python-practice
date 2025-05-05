@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9c8446ea-c1e8-4f5b-a5bc-c6285947bb86" name="Changes" comment="">
+=======
+    <list default="true" id="12dc8364-0612-44bc-b35a-e75b49a13962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/finding a substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modifying strings.py" afterDir="false" />
+>>>>>>> 0fa24b2dbc5a260a4ee8aa6db174123e5929383c
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +29,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
+<<<<<<< HEAD
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2vLaXIGxXdeu4F6aTNVwjRJmqb3" />
+=======
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qU46Wwt1tsVKvKKTjVKWP47Ryk" />
+>>>>>>> 0fa24b2dbc5a260a4ee8aa6db174123e5929383c
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,11 +45,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "Python.lenght of the last word in a string.executor": "Run",
     "Python.occurance of first index in a string.executor": "Run",
     "Python.pallindrome of a number.executor": "Run",
     "Python.practice.executor": "Run",
     "Python.reversing a  number.executor": "Run",
+=======
+    "Python.finding a substring.executor": "Run",
+    "Python.insert append and remove.executor": "Run",
+    "Python.inxerting name.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.modifying strings.executor": "Run",
+    "Python.second smallest grade and names.executor": "Run",
+    "Python.strings.executor": "Run",
+    "Python.sum of two numbers and reversing it.executor": "Run",
+    "Python.sum of two numbers.executor": "Run",
+    "Python.swapcase.executor": "Run",
+>>>>>>> 0fa24b2dbc5a260a4ee8aa6db174123e5929383c
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
@@ -53,11 +78,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="9c8446ea-c1e8-4f5b-a5bc-c6285947bb86" name="Changes" comment="" />
       <created>1743926845605</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743926845605</updated>
+=======
+      <changelist id="12dc8364-0612-44bc-b35a-e75b49a13962" name="Changes" comment="" />
+      <created>1734703646393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734703646393</updated>
+>>>>>>> 0fa24b2dbc5a260a4ee8aa6db174123e5929383c
     </task>
     <servers />
   </component>
