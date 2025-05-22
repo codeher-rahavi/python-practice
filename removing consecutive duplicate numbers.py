@@ -1,4 +1,4 @@
-a="hai"
+a="haaaii hooow arreee yooou"
 word1=''
 arr1=[]
 for i in range(0,len(a)):
@@ -11,6 +11,7 @@ for i in range(0,len(a)):
 if word1:
     arr1.append(word1)
 
+print(arr1)
 word2=''
 arr2=[]
 for i in range(0,len(arr1)):
@@ -21,7 +22,7 @@ for i in range(0,len(arr1)):
     word2+=arr1[i][len(arr1[i]) - 1]
     arr2.append(word2)
     word2=''
-
+print(arr2)
 res=' '.join(arr2)
 
 if a==res:
