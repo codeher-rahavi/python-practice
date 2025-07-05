@@ -1,10 +1,19 @@
-a=int(input())
-sum=0
-for i in range(1,a):
-    if a%i==0:
-        sum+=i
+import math
+class Solution:
+    def checkPerfectNumber(self, num: int) -> bool:
+        if num < 2:
+            return False
+        s = 1
+        a = num
+        for i in range(2, int(math.sqrt(a)) + 1):
+            if a % i == 0:
+                s += i
+                s += a // i
 
-if sum==a:
-    print("perfect numbers")
-else:
-    print("not a perfect number")
+        if s == a:
+            return True
+        else:
+            return False
+
+
+print(Solution().checkPerfectNumber(28))
