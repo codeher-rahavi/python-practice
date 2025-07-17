@@ -258,8 +258,19 @@ for i in range(len(n)):
 
 print(sum(arr))
 """
+'''
+vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+word="234Adas"
+v=0
+for i in range(len(word)):
+    if word[i] in vowel:
+        v+=1
 
+print(v)
+'''
 
+a=9+48
+print(chr(a))
 
 
 
