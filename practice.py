@@ -269,11 +269,15 @@ for i in range(len(word)):
 print(v)
 '''
 
-a=9+48
-print(chr(a))
-
-
-
+a="rahavi"
+print(set(a))
+print(b)
+c=0
+for i in range(len(b)):
+    if b[i:] in a:
+        c=len(b[i:])
+        break
+print(c)
 
 
 
