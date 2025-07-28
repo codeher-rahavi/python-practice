@@ -269,16 +269,6 @@ for i in range(len(word)):
 print(v)
 '''
 
-a="rahavi"
-print(set(a))
-print(b)
-c=0
-for i in range(len(b)):
-    if b[i:] in a:
-        c=len(b[i:])
-        break
-print(c)
-
 
 
 
