@@ -1,4 +1,4 @@
-a=int(input("enter a number"))
+'''a=int(input("enter a number"))
 arr=[]
 for i in range (0,a):
     b=int(input("enter the array elements"))
@@ -18,3 +18,13 @@ for i in arr:
 
 print(max)
 
+'''
+a=708
+ans=int(str(a)[::-1])
+print(ans)
+ans=str(ans)
+arr=[]
+for i in ans:
+    arr.append(int(i))
+
+print(arr)
