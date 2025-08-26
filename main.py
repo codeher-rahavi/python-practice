@@ -19,7 +19,7 @@ for i in arr:
 print(max)
 
 '''
-a=708
+'''a=708
 ans=int(str(a)[::-1])
 print(ans)
 ans=str(ans)
@@ -28,3 +28,7 @@ for i in ans:
     arr.append(int(i))
 
 print(arr)
+'''
+s='1221'
+rev=s[::-1]
+print(rev)
