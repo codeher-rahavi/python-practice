@@ -29,6 +29,11 @@ for i in ans:
 
 print(arr)
 '''
+'''
 s='1221'
 rev=s[::-1]
 print(rev)
+'''
+a=[1,3,5,2,2]
+a.sort()
+print(a)
