@@ -1,0 +1,11 @@
+n=4
+start=3
+nums=[]
+for i in range(n):
+    nums.append(start+2*i)
+
+ans=nums[0]
+for i in range(1,len(nums)):
+    ans=ans ^ nums[i]
+
+print(ans)
