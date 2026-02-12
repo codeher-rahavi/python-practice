@@ -1,0 +1,5 @@
+import csv
+
+with open ('eamples.csv','r') as csvfile:
+    print(csvfile)
+
