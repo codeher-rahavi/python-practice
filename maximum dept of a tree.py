@@ -33,13 +33,17 @@ def build_tree(val):
 
     return root
 
-def sum_of_left_node(root):
-    arr = []
-    def left_sum(root):
-        if
+def depth(root):
+    if root is None:
+        return 0
+    else:
+        ans1 = depth(root.left)
+        ans2 = depth(root.right)
+        m = max( depth(root.left) , depth(root.right))
 
+        return 1+m
 
-val=[3,9,20,15,7]
-root = build_tree(val)
-print(sum_of_left_node(root))
-
+values= [1,2,3,4,-1,5,6,-1,-1,7]
+root = build_tree(values)
+ans = depth(root)
+print(ans)
